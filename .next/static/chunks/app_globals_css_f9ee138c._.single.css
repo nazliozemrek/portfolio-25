@@ -2,9 +2,6 @@
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
     *, :before, :after, ::backdrop {
-      --tw-translate-x: 0;
-      --tw-translate-y: 0;
-      --tw-translate-z: 0;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
@@ -420,10 +417,6 @@
     width: 320px;
   }
 
-  .w-\[350px\] {
-    width: 350px;
-  }
-
   .w-full {
     width: 100%;
   }
@@ -434,11 +427,6 @@
 
   .flex-1 {
     flex: 1;
-  }
-
-  .translate-x-18 {
-    --tw-translate-x: calc(var(--spacing) * 18);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
   .scale-75 {
@@ -573,11 +561,6 @@
     border-width: 3px;
   }
 
-  .border-r {
-    border-right-style: var(--tw-border-style);
-    border-right-width: 1px;
-  }
-
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -662,10 +645,6 @@
 
   .p-6 {
     padding: calc(var(--spacing) * 6);
-  }
-
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
   }
 
   .px-2 {
@@ -998,24 +977,6 @@ body {
 
 .rotate-y-180 {
   transform: rotateY(180deg);
-}
-
-@property --tw-translate-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
-
-@property --tw-translate-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
-}
-
-@property --tw-translate-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
 }
 
 @property --tw-scale-x {
