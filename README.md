@@ -28,7 +28,16 @@ This project is a dynamic, FIFA-style developer portfolio for **Kaan Emre Nazlio
 
 ## Screenshots
 
-Coming soon...
+## Home View 
+![Home View](public/screenshots//screenshot-home.png)
+
+## Dev Attributes
+![Attributes](public/screenshots/screenshot-attributes.png)
+## Dev Bio
+![Bio](public/screenshots/screenshots-bio.png)
+## Dev Frameworks
+![Frameworks](public/screenshots/screenshot-frameworks.png)
+
 
 ---
 
