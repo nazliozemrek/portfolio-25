@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KEN – Developer Portfolio  
+**Live Demo:** [https://portfolio-25-navy.vercel.app](https://portfolio-25-navy.vercel.app)
 
-## Getting Started
+This project is a dynamic, FIFA-style developer portfolio for **Kaan Emre Nazlioz**. Inspired by the EA FC player card interface, it showcases skills and experience in a creative, gamified layout with interactive card reveals, tabbed attributes, and a responsive mobile-first design.
 
-First, run the development server:
+---
+
+## Features
+
+- Card reveal animation with confetti effect
+- FIFA-style tab navigation: Bio, Attributes, Frameworks, Contact
+- UI sounds triggered by keyboard or click
+- Framer Motion transitions
+- Dark mode default (text displays correctly in both themes)
+- Fully mobile-responsive layout
+
+---
+
+## Built With
+
+- [Next.js](https://nextjs.org/) – App router and SSR support
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS
+- [Framer Motion](https://www.framer.com/motion/) – Animation library
+- [TypeScript](https://www.typescriptlang.org/) – Static typing
+- [Vercel](https://vercel.com/) – Deployment platform
+
+---
+
+## Screenshots
+
+Coming soon...
+
+---
+
+## Local Setup
+
+Clone and run locally:
 
 ```bash
+git clone https://github.com/nazliozemrek/portfolio-25.git
+cd portfolio-25
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
