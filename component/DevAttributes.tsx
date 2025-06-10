@@ -83,9 +83,9 @@ const toolDescriptions: Record<string, { title: string; type: string; descriptio
 
 
   return(
-        <div className='flex min-h-screen bg-black text-white'>
+        <div className='flex flex-col lg:flex-row min-h-screen bg-black text-white'>
             {/* Left Panel*/}
-         <div className='w-[350px] p-6 border-r border-gray-800 flex flex-col items-center'>
+         <div className='w-full lg:w-[350px] p-6 border-b lg:border-r border-gray-800 flex flex-col items-center'>
            <div className='scale-75'>
                 <FootballDev/>
            </div>
@@ -93,8 +93,8 @@ const toolDescriptions: Record<string, { title: string; type: string; descriptio
             <p className='text-sm mt-4 opacity-60'>Frameworks: 3</p>
          </div>
             {/*Right Panel*/}
-        <div className='flex-1 p-8 space-y-8'>
-            <div className='flex gap-4 mb-6 border-b border-gray-700 pb-2'>
+        <div className='flex-1 px-4 py-6 sm:px-6 lg:px-8 space-y-8'>
+            <div className='flex gap-4 mb-6 border-b border-gray-700 pb-2 overflow-x-auto'>
                 <button
                     onClick={() => {
                         const audio = new Audio("/sounds/ui-sound.mp3");

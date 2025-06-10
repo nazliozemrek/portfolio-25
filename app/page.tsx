@@ -70,9 +70,9 @@ const Home = () => {
         transition={{duration:0.6}}
       >
         <FootballDev/>
-      <div className="w-[300px] flex ">
+      <div className="w-full flex justify-center mt-4">
               <button
-            className="mt-4 px-4 py-2 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-300 transition translate-x-18"
+            className="px-4 py-2 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-300 transition"
             onClick={() => setShowDetails(true)}
           >
             See Dev Details
